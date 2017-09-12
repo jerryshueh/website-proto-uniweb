@@ -1,0 +1,75 @@
+/*MAIN PORTION*/
+
+#pageMain {
+	width: 970px;
+	min-height: 460px;
+	margin: 15px auto 0px auto;
+	background-color: #4d3b41;
+}
+
+#pageSidebar {
+	width: 240px;
+	min-height: 400px;
+	padding-bottom: 60px;
+	background-image: url(../assets/images/framedge.jpg);
+	background-repeat: no-repeat;
+	background-color: #fff;
+
+	-webkit-border-radius: 0px 15px 15px 15px;
+	border-radius: 0px 15px 15px 15px; 
+}
+
+#pageContent {
+	width: 715px;
+	min-height: 400px;
+	margin: 0px 0px 0px 15px;
+	padding-bottom: 60px;
+	background-color: #fff;
+
+	-webkit-border-radius: 0px 15px 15px 15px;
+	border-radius: 0px 15px 15px 15px; 
+}
+
+#contentTitle {
+	padding: 28px 10px 12px 20px;
+	color: #fff;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+	font-size: 23px;
+	background-image: url(../assets/images/bigtitledash.png);
+	background-repeat: no-repeat;
+	background-position: 0 20px;
+}
+
+#contentWrap {
+	margin: 35px 30px 30px 30px;
+	font-size: 15px;
+}
+
+#contentWrap a:link, #contentWrap a:visited, #contentWrap a:active {
+	color: gray;
+}
+
+#contentWrap a:hover {
+	color: black;
+}
+
+#contentWrap p{
+	margin-bottom: 1em;
+}
+
+/*Contact Page*/
+
+#mailForm {
+	margin: 30px 0px 0px 20px;
+}
+
+#mailForm label {
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+#mailForm input, #mailForm textarea {
+	font-size: 14px;
+	margin-bottom: 20px;
+	resize: none;
+}

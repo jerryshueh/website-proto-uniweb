@@ -1,0 +1,53 @@
+/*FRONT PAGE*/
+
+#scrollBanner {
+	width: 940px;
+	min-height: 300px;
+	margin: 30px auto 0px auto;
+}
+
+#topicBox {
+	width: 940px;
+	margin: auto auto 15px auto;
+    text-align: center;
+    font-size: 20px;  
+    letter-spacing: 11px;   
+    line-height: 12px;  
+    overflow: hidden; 
+}
+
+#topicBox h1 {
+	text-decoration: underline;
+}
+
+#topicBox ol, #topicBox ul {
+	list-style-position: inside; 
+	line-height: 2em;
+	margin: 10px 0px 0px 20px;
+}
+
+#topicBox a:hover {
+	text-decoration: underline;
+}
+
+.wrapperSmall {
+	display: inline-block;
+	min-width: 250px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999999;
+	padding: 10px 7px 7px 7px;
+	vertical-align: middle;
+
+	font-size: 14px;  
+	text-align: left;
+    letter-spacing: normal;  
+    white-space: normal;  
+    line-height: normal;  
+    overflow: normal;  
+}
+
+.wrapperSmall {  
+    *display: inline;  
+    *margin: 0 20px 0 20px;  
+}  

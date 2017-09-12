@@ -1,0 +1,44 @@
+/*PROGRAM PAGE*/
+
+#topicBox {
+	margin: auto;
+    text-align: center;
+    font-size: 28px;   
+    line-height: 12px;  
+    letter-spacing: 10px; 
+    overflow: hidden; 
+}
+
+.programBox {
+	display: inline-block;
+	width: 290px;
+	min-height: 300px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #999999;
+
+    list-style-position: inside;
+
+	vertical-align: middle;
+
+	font-size: 14px;  
+	text-align: left;
+    letter-spacing: normal;  
+    white-space: normal;  
+    line-height: normal;  
+    overflow: normal;
+}
+
+.programBox li {
+    margin: 10px 0px 0px 10px;
+}
+
+.programBox h1 {
+    margin: 5px 0px 0px 5px;
+    font-size: 15px;
+}
+
+.schoolBox {  
+    *display: inline;  
+    *margin: 0 20px 0 20px;  
+} 
